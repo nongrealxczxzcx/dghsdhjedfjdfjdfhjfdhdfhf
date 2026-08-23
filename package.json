@@ -1,0 +1,15 @@
+{
+  "name": "giveaway-role-bot",
+  "version": "1.1.0",
+  "description": "Discord giveaway bot - /setup opens a modal for admins, posts a Components V2 embed, and grants a role to winners",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
